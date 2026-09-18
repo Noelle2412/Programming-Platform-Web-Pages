@@ -113,7 +113,10 @@ h3 span {
     color: var(--primary-color);
 }
 
-
+/* Placeholder */
+#placeholder {
+    text-align: center;
+}
 
 /* Hero */
 #hero {
