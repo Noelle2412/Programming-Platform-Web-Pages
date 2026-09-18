@@ -3,42 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/style_sign_up_in.css" />
     <title>Sign Up</title>
   </head>
   <body>
     <main>
-      <img src="..\docs\images\coding.png" alt="Cartoon programmer" />
-      <h2>Join Coders Now!</h2>
-      <form action="sign_up.html">
-        <input
-          type="text"
-          id="first_name"
-          name="first_name"
-          placeholder="First Name"
-          required />
-        <input
-          type="text"
-          id="last_name"
-          name="last_name"
-          placeholder="Last Name"
-          required />
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Email"
-          required />
-        <input
-          type="password"
-          id="password"
-          name="password"
-          placeholder="Password"
-          required />
-        <input type="submit" value="Sign Up" />
-      </form>
-      Already have an account?
-      <a href="login.html">Login</a>
+      <div id="login_img">
+        <img src="../docs/images/coding.png" alt="Cartoon programmer" />
+      </div>
+      <div id="login">
+        <h2>Join Coders Now!</h2>
+        <form action="sign_up.html">
+          <input
+            type="text"
+            id="first_name"
+            name="first_name"
+            placeholder="First Name"
+            required />
+          <input
+            type="text"
+            id="last_name"
+            name="last_name"
+            placeholder="Last Name"
+            required />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required />
+          <input type="submit" value="Sign Up" />
+        </form>
+        <p>
+          Already have an account?
+          <a href="login.html">Login</a>
+        </p>
+      </div>
     </main>
   </body>
 </html>
